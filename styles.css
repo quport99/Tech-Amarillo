@@ -1,17 +1,17 @@
 .nav {
 		float: right;
 		display: inline;
-		font-size: 2.5vw;
-		margin-top: 3.5vw;
+		font-size: 2vw;
+		margin-top: 1.7vw;
 		margin-right: 3vw;
-		padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+		padding: .8vw .8vw .8vw .8vw;
 		background-color: #666666;
 }
 
 #head {
 		display: block;
 		font-size: 3vw;
-		margin-left: -1%;
+		margin-left: 2%;
 		margin-top: 2%;
 		font-family: "Arial Black", Gadget, sans-serif;
 }
@@ -19,17 +19,19 @@
 #barcontainer {
 		clear: both;
 		position: fixed;
-		width: 100%;
-		height: 14vw;
+		width: 95.5vw;
+		height: 8vw;
 		display: inline;
+		margin-left: -2vw;
 		z-index: 5;
-		background-color: #fffff0;
+		background-color: #3987bf;
 }
 
 #bar {
 		position: relative;
 		display: inline;
 		z-index: 5;
+		
 }
 
 a {
@@ -43,17 +45,15 @@ a {
 #rest {
 		position: absolute;
 		display: inline;
-		clear: both;
 }
 
 #box {
 		position: absolute;
 		display: block;
-		width: 100%;
+		width: 95.45vw;
 		height: 100vw;
-		padding-left: 5%;
 		margin-left: -2%;
-		margin-top: 13.5%;
+		margin-top: 8%;
 		background-color: black;
 		color: white;
 }
@@ -75,9 +75,9 @@ a {
 
 #logo {
 		float: left;
-		margin-left: 1.5vw;
-		margin-top: 1.5vw;
-		width: 16%;
+		margin-left: 1.2vw;
+		margin-top: .8vw;
+		width: 10%;
 		height: auto;
 }
 
@@ -87,7 +87,7 @@ h2 {
 		font-size: 5.5vw;
 		font-family: Verdana, Geneva, sans-serif;
 		text-align: center;
-		color: #787878;
+		color: #3987bf;
 }
 
 p {
@@ -99,11 +99,14 @@ p {
 		padding: 1vw 1vw 1vw 1vw;
 		border-radius: 2vw;
 		max-width: 90vw;
+		margin-left: auto;
+		margin-right: auto;
 }
 
 body {
 		background-color: #fffff0;
-		margin: 0;
+		margin-top: 0;
+		margin-left: 4vw;
 }
 
 #cont {
