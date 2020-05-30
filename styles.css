@@ -25,6 +25,7 @@
 		margin-left: -2vw;
 		z-index: 5;
 		background-color: #3987bf;
+		border-radius: .8vw;
 }
 
 #bar {
@@ -56,6 +57,7 @@ a {
 		margin-top: 8%;
 		background-color: black;
 		color: white;
+		border-radius: .8vw;
 }
 
 #footer {
