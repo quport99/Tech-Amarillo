@@ -82,6 +82,14 @@ p {
 		margin-right: auto;
 }
 
+.bottomlink {
+		border: none;
+		text-decoration: underline;
+		font-weight: bold;
+		color: white;
+		border-radius: 1vw;
+}
+
 #footer {
 		position: relative;
 		display: block;
@@ -89,6 +97,26 @@ p {
 		background-color: #303030;
 		border-radius: .8vw;
 		margin-top: 15vw;
+		
+}
+
+#footerservices {
+		position: relative;
+		display: block;
+		clear: both;
+		background-color: #303030;
+		border-radius: .8vw;
+		margin-top: 19vw;
+		
+}
+
+#footercontact {
+		position: relative;
+		display: block;
+		clear: both;
+		background-color: #303030;
+		border-radius: .8vw;
+		margin-top: 40vw;
 		
 }
 
@@ -107,10 +135,13 @@ p {
 		font-size: 1.5vw;
 		margin-bottom: 0;
 		text-align: center;
-		color: #969696;
 		border: 0;
-		text-decoration: none;
 		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#footernavbutton a {
+		text-decoration: underline;
+		color: #969696;
 }
 
 #copyright {
@@ -126,14 +157,6 @@ body {
 		background-color: #fffff0;
 		margin-top: 0;
 		margin-left: 4vw;
-}
-
-.bottomlink {
-		border: none;
-		text-decoration: underline;
-		font-weight: bold;
-		color: white;
-		border-radius: 1vw;
 }
 
 #cont {
