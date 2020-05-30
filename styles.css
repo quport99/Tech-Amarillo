@@ -43,36 +43,16 @@ a {
 		border-radius: 1vw;
 }
 
-#rest {
-		position: absolute;
-		display: inline;
-}
-
 #box {
 		position: absolute;
 		display: block;
 		width: 95.45vw;
 		height: 100vw;
 		margin-left: -2%;
-		margin-top: 8%;
+		margin-top: 8vw;
 		background-color: black;
 		color: white;
 		border-radius: .8vw;
-}
-
-#footer {
-		position: relative;
-		display: inline;
-		clear: both;
-		margin-top: 27.8%;
-		background-color: #303030;
-		padding-bottom: 11.5%;
-		padding-right: 93.2%;
-}
-
-#footerp {
-		position: relative;
-		left: 100px;
 }
 
 #logo {
@@ -95,14 +75,35 @@ h2 {
 p {
 		text-align: center;
 		font-size: 3vw;
-		margin-bottom: 20vw;
+		margin-bottom: 15vw;
 		font-family: "Arial Black", Gadget, sans-serif;
 		background-color: #666666;
 		padding: 1vw 1vw 1vw 1vw;
-		border-radius: 2vw;
+		border-radius: 1.8vw;
 		max-width: 90vw;
 		margin-left: auto;
 		margin-right: auto;
+}
+
+#footer {
+		position: relative;
+		display: block;
+		clear: both;
+		background-color: #303030;
+		border-radius: .8vw;
+		margin-top: 16.5vw;
+		
+}
+
+#footerp {
+		position: relative;
+		right: 100px;
+		max-width: 10vw;
+		padding: 2vw 0 2vw 0;
+		border-radius: 0;
+		background-color: inherit;
+		font-size: 2vw;
+		
 }
 
 body {
@@ -111,12 +112,22 @@ body {
 		margin-left: 4vw;
 }
 
+.bottomlink {
+		border: none;
+		text-decoration: underline;
+}
+
 #cont {
 		
 }
 
-#sk {
-		margin-top: 12vw;
+#lastcontent {
+		margin-top: -2vw;
+		margin-bottom: 2vw;
+}
+
+#first {
+		margin-top: 4vw;
 }
 
 #all {
