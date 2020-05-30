@@ -1,0 +1,108 @@
+.nav {
+		float: right;
+		display: inline;
+		font-size: 2.5vw;
+		margin-top: 3.2vw;
+		margin-right: 3vw;
+		padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+		background-color: #666666;
+}
+
+#head {
+		display: block;
+		font-size: 3vw;
+		margin-left: -1%;
+		margin-top: 2%;
+		font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#bar {
+		position: relative;
+		width: 70%;
+		height: 10%;
+		background-color: #f5f5f5;
+		display: inline;
+		z-index: 5;
+}
+
+a {
+		text-decoration: none;
+		font-weight: bold;
+		color: white;
+		border: 2px solid grey;
+		border-radius: 1vw;
+}
+
+#rest {
+		position: absolute;
+		display: inline;
+		clear: both;
+}
+
+#box {
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100vw;
+		padding-left: 5%;
+		margin-left: -2%;
+		margin-top: 14%;
+		background-color: black;
+		color: white;
+}
+
+#footer {
+		position: relative;
+		display: inline;
+		clear: both;
+		margin-top: 27.8%;
+		background-color: #303030;
+		padding-bottom: 11.5%;
+		padding-right: 93.2%;
+}
+
+#footerp {
+		position: relative;
+		left: 100px;
+}
+
+#logo {
+		float: left;
+		margin-left: 1.5vw;
+		margin-top: 1.5vw;
+		width: 16%;
+		height: auto;
+}
+
+h2 {
+		margin-top: 7vw;
+		display: block;
+		font-size: 5.5vw;
+		font-family: Verdana, Geneva, sans-serif;
+		text-align: center;
+		color: #787878;
+}
+
+p {
+		font-size: 3vw;
+		margin-bottom: 20vw;
+		font-family: "Arial Black", Gadget, sans-serif;
+		background-color: #666666;
+		padding-left: 3vw;
+}
+
+body {
+		background-color: #fffff0;
+}
+
+#cont {
+		
+}
+
+#sk {
+		margin-top: 12vw;
+}
+
+#all {
+		clear: both;
+}
