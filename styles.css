@@ -41,6 +41,7 @@
 }
 
 #logo {
+		display: inline;
 		float: left;
 		margin-left: 16vw;
 		margin-top: .8vw;
