@@ -23,6 +23,10 @@
 		box-shadow: 0 1vw 2vw #3278ab;
 }
 
+#barcontainer a:hover {
+		background-color: #757575;
+}
+
 #box {
 		clear: both;
 		position: absolute;
@@ -45,7 +49,7 @@
 }
 
 h2 {
-		margin-top: .5vw;
+		margin-top: 5.5vw;
 		display: block;
 		font-size: 5vw;
 		font-family: Verdana, Geneva, sans-serif;
@@ -56,7 +60,7 @@ h2 {
 p {
 		text-align: center;
 		font-size: 2.5vw;
-		margin-bottom: 15vw;
+		margin-bottom: 8vw;
 		font-family: "Arial Black", Gadget, sans-serif;
 		background-color: #666666;
 		padding: 1vw 1vw 1vw 1vw;
@@ -71,12 +75,13 @@ p {
 		box-shadow: 0 0 2vw 1vw #7d7d7d;
 }
 
-#serviceslist {
-		margin-bottom: 10vw;
-}
-
-#serviceshead {
-		margin-top: -4vw;
+.line {
+		width: 48vw;
+		height: .6vw;
+		background-color: white;
+		box-shadow: 0 0 .4vw .4vw #666666, inset 0 0 .2vw .2vw #666666;
+		margin: auto;
+		border-radius: 2vw;
 }
 
 #neverask {
@@ -85,7 +90,7 @@ p {
 }
 
 .contactinfo {
-		margin-top: -12vw;
+		margin-top: -5vw;
 		box-shadow: 0 0 2vw 1vw #7d7d7d;
 }
 
@@ -162,6 +167,10 @@ p a {
 		text-align: left;
 }
 
+#lastcontent {
+		margin-top: 8vw;
+}
+
 body {
 		background-color: #000000;
 		margin: 0;
@@ -170,11 +179,6 @@ body {
 
 #cont {
 		
-}
-
-#lastcontent {
-		margin-top: -2vw;
-		margin-bottom: 2vw;
 }
 
 #homenav {
@@ -226,4 +230,50 @@ body {
 
 #all {
 		clear: both;
+}
+
+form #name {
+		width: 20vw;
+		height: 2.5vw;
+		margin-bottom: 5vw;
+		margin-right: 3vw;
+		border: none;
+}
+
+form #email {
+		width: 20vw;
+		height: 2.5vw;
+		margin-bottom: 5vw;
+		border: none;
+}
+
+form #subject {
+		width: 35vw;
+		height: 15vw;
+		display: block;
+}
+
+textarea {
+		margin-left: auto;
+		margin-right: auto;
+}
+
+input, textarea {
+		border-radius: .8vw;
+}
+
+form {
+		text-align: center;
+		font-size: 2.5vw;
+		margin-bottom: 15vw;
+		font-family: "Arial Black", Gadget, sans-serif;
+		background-color: #666666;
+		padding: 1vw 1vw 1vw 1vw;
+		border-radius: 1.8vw;
+		max-width: 68vw;
+		margin-left: auto;
+		margin-right: auto;
+		color: white;
+		box-shadow: 0 0 2vw 1vw #7d7d7d;
+		
 }
