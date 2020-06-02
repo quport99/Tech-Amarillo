@@ -183,9 +183,9 @@ body {
 
 #homenav {
 		position: relative;
-		float: right;
-		margin-top: 6.5vw;
-		margin-right: -6.9vw;
+		float: left;
+		margin-top: 1vw;
+		margin-left: 32.2vw;
 		display: inline;
 		width: 6.9vw;
 		height: .8vw;
@@ -196,9 +196,9 @@ body {
 
 #servicesnav {
 		position: relative;
-		float: right;
-		margin-top: 6.5vw;
-		margin-right: -18vw;
+		float: left;
+		margin-top: 1vw;
+		margin-left: 42.3vw;
 		display: inline;
 		width: 8vw;
 		height: .8vw;
@@ -209,9 +209,9 @@ body {
 
 #contactnav {
 		position: relative;
-		float: right;
-		margin-top: 6.5vw;
-		margin-right: -29.5vw;
+		float: left;
+		margin-top: 1vw;
+		margin-left: 53.8vw;
 		display: inline;
 		width: 8vw;
 		height: .8vw;
