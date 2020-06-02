@@ -13,7 +13,19 @@
 		border-radius: 1vw;
 }
 
+#logo {
+		display: inline;
+		float: left;
+		margin-left: 5vw;
+		margin-top: .8vw;
+		width: 10%;
+		height: auto;
+}
+
 #barcontainer {
+		padding-left: 10vw;
+		padding-right: 10vw;
+		width: 100vw;
 		clear: both;
 		position: fixed;
 		height: 8vw;
@@ -40,14 +52,6 @@
 		margin-right: 0;
 }
 
-#logo {
-		display: inline;
-		float: left;
-		margin-left: 16vw;
-		margin-top: .8vw;
-		width: 10%;
-		height: auto;
-}
 
 h2 {
 		margin-top: 5.5vw;
