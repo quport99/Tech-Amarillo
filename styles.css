@@ -1,5 +1,5 @@
 .nav {
-		float: right;
+		float: left;
 		display: inline;
 		font-size: 2vw;
 		margin-top: 1.7vw;
@@ -42,7 +42,7 @@
 
 #logo {
 		float: left;
-		margin-left: 13vw;
+		margin-left: 16vw;
 		margin-top: .8vw;
 		width: 10%;
 		height: auto;
@@ -185,7 +185,7 @@ body {
 		position: relative;
 		float: left;
 		margin-top: 1vw;
-		margin-left: 32.2vw;
+		margin-left: 27.9vw;
 		display: inline;
 		width: 6.9vw;
 		height: .8vw;
@@ -198,7 +198,7 @@ body {
 		position: relative;
 		float: left;
 		margin-top: 1vw;
-		margin-left: 42.3vw;
+		margin-left: 38vw;
 		display: inline;
 		width: 8vw;
 		height: .8vw;
@@ -211,7 +211,7 @@ body {
 		position: relative;
 		float: left;
 		margin-top: 1vw;
-		margin-left: 53.8vw;
+		margin-left: 49.5vw;
 		display: inline;
 		width: 8vw;
 		height: .8vw;
@@ -220,8 +220,8 @@ body {
 		box-shadow: 0 0 1vw .5vw #666666;
 }
 
-#contactbutton {
-		margin-right: 13vw;
+#homebutton {
+		margin-left: 28vw;
 }
 
 #first {
