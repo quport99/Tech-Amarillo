@@ -1,34 +1,42 @@
 .nav {
-		float: left;
+		display: none;
+}
+
+.mobilenav p {
+		margin: 0 0 -1em 0;
+		padding: .15em 1em .15em 1em;
+		background-color: #303030;
+		border-radius: .1em;
+		text-align: left;
+}
+
+.mobilenav {
+		float: right;
+		margin-right: 2em;
 		display: inline;
-		font-size: 2vw;
-		margin-top: 1.7vw;
-		margin-right: 3vw;
-		padding: .8vw .8vw .8vw .8vw;
-		background-color: #666666;
-		text-decoration: none;
-		font-weight: bold;
-		color: white;
-		box-shadow: 0 1vw 2vw #757575;
-		border-radius: 1vw;
+		margin-top: 1.1em;
+}
+
+.mobilenavbutton {
+		display: inline;
 }
 
 #logo {
 		display: inline;
 		float: left;
-		margin-left: 5vw;
-		margin-top: .8vw;
-		width: 10%;
+		margin-left: 1em;
+		margin-right: 0;
+		margin-top: .4em;
+		width: 6.1em;
 		height: auto;
 }
 
 #barcontainer {
-		padding-left: 10vw;
-		padding-right: 10vw;
+
 		width: 100vw;
 		clear: both;
 		position: fixed;
-		height: 8vw;
+		height: 5em;
 		display: inline;
 		z-index: 5;
 		background-color: #3987bf;
@@ -52,11 +60,10 @@
 		margin-right: 0;
 }
 
-
 h2 {
 		margin-top: 5.5vw;
 		display: block;
-		font-size: 5vw;
+		font-size: 2.2em;
 		font-family: Verdana, Geneva, sans-serif;
 		text-align: center;
 		color: #3987bf;
@@ -64,13 +71,13 @@ h2 {
 
 p {
 		text-align: center;
-		font-size: 2.5vw;
+		font-size: 1.8em;
 		margin-bottom: 8vw;
 		font-family: "Arial Black", Gadget, sans-serif;
 		background-color: #666666;
 		padding: 1vw 1vw 1vw 1vw;
 		border-radius: 1.8vw;
-		max-width: 68vw;
+		max-width: 93vw;
 		margin-left: auto;
 		margin-right: auto;
 		color: white;
@@ -188,41 +195,15 @@ body {
 
 #homenav {
 		
-		float: left;
-		margin-top: 1vw;
-		margin-left: 27.9vw;
-		display: inline;
-		width: 6.9vw;
-		height: .8vw;
-		background-color: #666666;
-		border-radius: 1vw;
-		box-shadow: 0 0 1vw .5vw #666666;
+		display: none;
 }
 
 #servicesnav {
-		
-		float: left;
-		margin-top: 1vw;
-		margin-left: 38vw;
-		display: inline;
-		width: 8vw;
-		height: .8vw;
-		background-color: #666666;
-		border-radius: 1vw;
-		box-shadow: 0 0 1vw .5vw #666666;
+		display: none;
 }
 
 #contactnav {
-		
-		float: left;
-		margin-top: 1vw;
-		margin-left: 49.5vw;
-		display: inline;
-		width: 8vw;
-		height: .8vw;
-		background-color: #666666;
-		border-radius: 1vw;
-		box-shadow: 0 0 1vw .5vw #666666;
+		display: none;
 }
 
 #homebutton {
@@ -281,4 +262,307 @@ form {
 		color: white;
 		box-shadow: 0 0 2vw 1vw #7d7d7d;
 		
+}
+
+@media only screen and (min-width: 750px) {
+
+	.nav {
+			float: left;
+			display: inline;
+			font-size: 2vw;
+			margin-top: 1.7vw;
+			margin-right: 3vw;
+			padding: .8vw .8vw .8vw .8vw;
+			background-color: #666666;
+			text-decoration: none;
+			font-weight: bold;
+			color: white;
+			box-shadow: 0 1vw 2vw #757575;
+			border-radius: 1vw;
+	}
+	
+	.mobilenavbutton {
+			display: none;
+	}
+	
+	.mobilenav p {
+			display: none;
+	}
+	
+	.mobilenav {
+			display: none;
+	}
+
+	
+	#logo {
+			display: inline;
+			float: left;
+			margin-left: 5vw;
+			margin-top: .8vw;
+			margin-right: 0;
+			width: 10%;
+			height: auto;
+	}
+
+	#barcontainer {
+			padding-left: 10vw;
+			padding-right: 10vw;
+			width: 100vw;
+			clear: both;
+			position: fixed;
+			height: 8vw;
+			display: inline;
+			z-index: 5;
+			background-color: #3987bf;
+			box-shadow: 0 1vw 2vw #3278ab;
+	}
+
+	#barcontainer a:hover {
+			background-color: #757575;
+	}
+
+	#box {
+			clear: both;
+			position: absolute;
+			display: block;
+			width: 100vw;
+			height: 100vw;
+			margin-top: 8vw;
+			background-color: black;
+			color: white;
+			margin-left: 0;
+			margin-right: 0;
+	}
+
+
+	h2 {
+			margin-top: 5.5vw;
+			display: block;
+			font-size: 5vw;
+			font-family: Verdana, Geneva, sans-serif;
+			text-align: center;
+			color: #3987bf;
+	}
+
+	p {
+			text-align: center;
+			font-size: 2.5vw;
+			margin-bottom: 8vw;
+			font-family: "Arial Black", Gadget, sans-serif;
+			background-color: #666666;
+			padding: 1vw 1vw 1vw 1vw;
+			border-radius: 1.8vw;
+			max-width: 68vw;
+			margin-left: auto;
+			margin-right: auto;
+			color: white;
+	}
+
+	.pshadow {
+			box-shadow: 0 0 2vw 1vw #7d7d7d;
+	}
+
+	.line {
+			width: 48vw;
+			height: .6vw;
+			background-color: white;
+			box-shadow: 0 0 .4vw .4vw #666666, inset 0 0 .2vw .2vw #666666;
+			margin: auto;
+			border-radius: 2vw;
+	}
+
+	#neverask {
+			margin-top: -2vw;
+			margin-bottom: 3vw;
+	}
+
+	.contactinfo {
+			margin-top: -5vw;
+			box-shadow: 0 0 2vw 1vw #7d7d7d;
+	}
+
+	.bottomlink {
+			border: none;
+			text-decoration: underline;
+			font-weight: bold;
+			color: white;
+			border-radius: 1vw;
+	}
+
+	#footer {
+			position: relative;
+			display: block;
+			clear: both;
+			background-color: #303030;
+			margin-top: 10vw;
+			margin-right: 0;
+	}
+
+	#footerservices {
+			position: relative;
+			display: block;
+			clear: both;
+			background-color: #303030;
+			margin-top: 0vw;
+			
+	}
+
+	#footercontact {
+			position: relative;
+			display: block;
+			clear: both;
+			background-color: #303030;
+			margin-top: 32vw;
+			
+	}
+
+	#footernav {
+			border-radius: 0;
+			background-color: inherit;
+			font-size: 2vw;
+			margin-bottom: -3vw;
+			text-align: center;
+			color: #969696;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	}
+
+	#footernavbutton {
+			background-color: inherit;
+			font-size: 1.5vw;
+			margin-bottom: 0;
+			text-align: center;
+			border: 0;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	}
+
+	#footernavbutton a {
+			text-decoration: underline;
+			color: #969696;
+	}
+
+	p a {
+			text-decoration: underline;
+			color: white;
+	}
+
+	#copyright {
+			display: inline;
+			position: relative;
+			top: -1vw;
+			background-color: inherit;
+			font-size: 1.2vw;
+			text-align: left;
+	}
+
+	#lastcontent {
+			margin-top: 8vw;
+	}
+
+	body {
+			background-color: #000000;
+			margin: 0;
+			overflow-x: hidden;
+	}
+
+	#cont {
+			
+	}
+
+	#homenav {
+			
+			float: left;
+			margin-top: 1vw;
+			margin-left: 27.9vw;
+			display: inline;
+			width: 6.9vw;
+			height: .8vw;
+			background-color: #666666;
+			border-radius: 1vw;
+			box-shadow: 0 0 1vw .5vw #666666;
+	}
+
+	#servicesnav {
+			
+			float: left;
+			margin-top: 1vw;
+			margin-left: 38vw;
+			display: inline;
+			width: 8vw;
+			height: .8vw;
+			background-color: #666666;
+			border-radius: 1vw;
+			box-shadow: 0 0 1vw .5vw #666666;
+	}
+
+	#contactnav {
+			
+			float: left;
+			margin-top: 1vw;
+			margin-left: 49.5vw;
+			display: inline;
+			width: 8vw;
+			height: .8vw;
+			background-color: #666666;
+			border-radius: 1vw;
+			box-shadow: 0 0 1vw .5vw #666666;
+	}
+
+	#homebutton {
+			margin-left: 28vw;
+	}
+
+	#first {
+			margin-top: 11vw;
+	}
+
+	#all {
+			clear: both;
+	}
+
+	form #name {
+			width: 20vw;
+			height: 2.5vw;
+			margin-bottom: 5vw;
+			margin-right: 3vw;
+			border: none;
+	}
+
+	form #email {
+			width: 20vw;
+			height: 2.5vw;
+			margin-bottom: 5vw;
+			border: none;
+	}
+
+	form #subject {
+			width: 35vw;
+			height: 15vw;
+			display: block;
+	}
+
+	textarea {
+			margin-left: auto;
+			margin-right: auto;
+	}
+
+	input, textarea {
+			border-radius: .8vw;
+	}
+
+	form {
+			text-align: center;
+			font-size: 2.5vw;
+			margin-bottom: 15vw;
+			font-family: "Arial Black", Gadget, sans-serif;
+			background-color: #666666;
+			padding: 1vw 1vw 1vw 1vw;
+			border-radius: 1.8vw;
+			max-width: 68vw;
+			margin-left: auto;
+			margin-right: auto;
+			color: white;
+			box-shadow: 0 0 2vw 1vw #7d7d7d;
+			
+	}
+
 }
