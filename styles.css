@@ -21,6 +21,13 @@
 		display: inline;
 }
 
+h4 {
+		font-size: 3vw;
+		color: red;
+		margin-left: 5vw;
+		display: inline;
+}
+
 #logo {
 		display: inline;
 		float: left;
@@ -211,7 +218,7 @@ body {
 }
 
 #first {
-		margin-top: 11vw;
+		margin-top: 2em;
 }
 
 #all {
@@ -292,7 +299,10 @@ form {
 	.mobilenav {
 			display: none;
 	}
-
+	
+	h4 {
+			display: none;
+	}
 	
 	#logo {
 			display: inline;
@@ -566,3 +576,12 @@ form {
 	}
 
 }
+
+/*@media only screen and (max-width: 501px) {
+
+	#first {
+			margin-top: 10em;
+	}
+	
+}
+*/
