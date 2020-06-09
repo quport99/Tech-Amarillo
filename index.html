@@ -14,16 +14,30 @@
 			<div id="barcontainer">
 				
 					<img id="logo" src="TA Logo.png" alt="Logo">
-					<h4>
-					mobile site is in beta testing
-					</h4>
-					
-					<div class="mobilenav">
-					<p></p><br><br>
-					<p></p><br><br>
-					<p></p>
+
+					<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						<a href="index.html">Home</a>
+						<a href="services.html">Services</a>
+						<a href="contact.html">Contact</a>
 					</div>
 					
+					<div onclick="openNav()" class="mobilenav">
+					<p onclick="openNav()"></p><br><br>
+					<p onclick="openNav()"></p><br><br>
+					<p onclick="openNav()"></p>
+					</div>
+
+					<script>
+						function openNav() {
+							document.getElementById("mySidenav").style.width = "13em";
+						}
+
+						function closeNav() {
+							document.getElementById("mySidenav").style.width = "0";
+						}
+					</script>
+			
 					<a id="homebutton"  class="nav" href="index.html">Home</a>
 					<a class="nav" href="services.html">Services</a>
 					<a class="nav" href="contact.html">Contact</a>

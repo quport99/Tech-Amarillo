@@ -21,6 +21,40 @@
 		display: inline;
 }
 
+.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 11;
+		top: 0;
+		right: 0;
+		background-color: black;
+		padding-top: 3em;
+		transition: 0.5s;
+		float: right;
+}
+
+.sidenav a {
+		padding: .5em .5em .5em 1em;
+		text-decoration: none;
+		font-size: 2em;
+		color: white;
+		display: block;
+		transition: 0.3s;
+		font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.sidenav a:hover {
+		color: grey;
+}
+
+.sidenav .clodebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		margin-left: 5em;
+}
+
 h4 {
 		font-size: 3vw;
 		color: red;
@@ -114,7 +148,7 @@ p {
 }
 
 .contactinfo a {
-		font-size: .9em;
+		font-size: .7em;
 }
 
 .bottomlink {
