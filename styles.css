@@ -3,7 +3,7 @@
 }
 
 .mobilenav p {
-		margin: 0 0 -1em 0;
+		margin: 0 0 -1.1em 0;
 		padding: .10em .8em .10em .8em;
 		background-color: #303030;
 		border-radius: .1em;
@@ -14,7 +14,7 @@
 		float: right;
 		margin-right: 2em;
 		display: inline;
-		margin-top: 1.3em;
+		margin-top: 1.4em;
 }
 
 .mobilenavbutton {
