@@ -1,3 +1,10 @@
+:root {
+		--bgcolor: #212121;
+		--maintextcolor: white;
+		--headertextcolor: #3987bf;
+		--accentcolor: #666666;
+}
+
 .nav {
 		display: none;
 }
@@ -95,7 +102,7 @@ h4 {
 		width: 100vw;
 		height: 100vw;
 		margin-top: 8vw;
-		background-color: black;
+		background-color: var(--bgcolor);
 		color: white;
 		margin-left: 0;
 		margin-right: 0;
@@ -107,7 +114,7 @@ h2 {
 		font-size: 2.1em;
 		font-family: Verdana, Geneva, sans-serif;
 		text-align: center;
-		color: #3987bf;
+		color: var(--headertextcolor);
 }
 
 p {
@@ -115,13 +122,13 @@ p {
 		font-size: 1.6em;
 		margin-bottom: 8vw;
 		font-family: "Arial Black", Gadget, sans-serif;
-		background-color: #666666;
+		background-color: var(--accentcolor);
 		padding: 1vw 1vw 1vw 1vw;
 		border-radius: 1.8vw;
 		max-width: 93vw;
 		margin-left: auto;
 		margin-right: auto;
-		color: white;
+		color: var(--maintextcolor);
 }
 
 .pshadow {
@@ -192,7 +199,7 @@ p {
 		font-size: 2vw;
 		margin-bottom: -3vw;
 		text-align: center;
-		color: #969696;
+		color: var(--maintextcolor);
 		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
@@ -207,12 +214,12 @@ p {
 
 #footernavbutton a {
 		text-decoration: underline;
-		color: #969696;
+		color: var(--maintextcolor);
 }
 
 p a {
 		text-decoration: underline;
-		color: white;
+		color: var(--maintextcolor);
 }
 
 #copyright {
@@ -229,7 +236,7 @@ p a {
 }
 
 body {
-		background-color: #000000;
+		background-color: var(--bgcolor);
 		margin: 0;
 		overflow-x: hidden;
 }
@@ -376,7 +383,7 @@ form {
 			width: 100vw;
 			height: 100vw;
 			margin-top: 8vw;
-			background-color: black;
+			background-color: var(--bgcolor);
 			color: white;
 			margin-left: 0;
 			margin-right: 0;
@@ -389,7 +396,7 @@ form {
 			font-size: 5vw;
 			font-family: Verdana, Geneva, sans-serif;
 			text-align: center;
-			color: #3987bf;
+			color: var(--headertextcolor);
 	}
 
 	p {
@@ -397,13 +404,13 @@ form {
 			font-size: 2.5vw;
 			margin-bottom: 8vw;
 			font-family: "Arial Black", Gadget, sans-serif;
-			background-color: #666666;
+			background-color: var(--accentcolor);
 			padding: 1vw 1vw 1vw 1vw;
 			border-radius: 1.8vw;
 			max-width: 68vw;
 			margin-left: auto;
 			margin-right: auto;
-			color: white;
+			color: var(--maintextcolor);
 	}
 
 	.pshadow {
@@ -475,7 +482,7 @@ form {
 			font-size: 2vw;
 			margin-bottom: -3vw;
 			text-align: center;
-			color: #969696;
+			color: var(--maintextcolor);
 			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	}
 
@@ -490,7 +497,7 @@ form {
 
 	#footernavbutton a {
 			text-decoration: underline;
-			color: #969696;
+			color: var(--maintextcolor);
 	}
 
 	p a {
@@ -512,7 +519,7 @@ form {
 	}
 
 	body {
-			background-color: #000000;
+			background-color: var(--bgcolor);
 			margin: 0;
 			overflow-x: hidden;
 	}
