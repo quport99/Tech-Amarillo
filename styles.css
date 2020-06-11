@@ -271,23 +271,23 @@ body {
 }
 
 form #name {
-		width: 20vw;
-		height: 2.5vw;
+		width: 14em;
+		height: 2em;
 		margin-bottom: 5vw;
 		margin-right: 3vw;
 		border: none;
 }
 
 form #email {
-		width: 20vw;
-		height: 2.5vw;
+		width: 14em;
+		height: 2em;
 		margin-bottom: 5vw;
 		border: none;
 }
 
 form #subject {
-		width: 35vw;
-		height: 15vw;
+		width: 90vw;
+		height: 9em;
 		display: block;
 }
 
@@ -302,13 +302,13 @@ input, textarea {
 
 form {
 		text-align: center;
-		font-size: 2.5vw;
+		font-size: 1.6em;
 		margin-bottom: 15vw;
 		font-family: "Arial Black", Gadget, sans-serif;
 		background-color: #666666;
 		padding: 1vw 1vw 1vw 1vw;
 		border-radius: 1.8vw;
-		max-width: 68vw;
+		max-width: 93vw;
 		margin-left: auto;
 		margin-right: auto;
 		color: white;
@@ -316,8 +316,25 @@ form {
 		
 }
 
+h5 {
+		margin-top: -2em;
+}
+
+#smallbreak {
+			display: none;
+}
+
+@media only screen and (max-width: 659px) {
+	#smallbreak {
+			display: block;
+	}
+}
 @media only screen and (min-width: 801px) {
 
+	#smallbreak {
+			display: none;
+	}
+	
 	.nav {
 			float: left;
 			display: inline;
@@ -595,7 +612,7 @@ form {
 	}
 
 	form #subject {
-			width: 35vw;
+			width: 65vw;
 			height: 15vw;
 			display: block;
 	}
@@ -626,12 +643,3 @@ form {
 	}
 
 }
-
-/*@media only screen and (max-width: 501px) {
-
-	#first {
-			margin-top: 10em;
-	}
-	
-}
-*/
