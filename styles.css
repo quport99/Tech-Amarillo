@@ -48,6 +48,7 @@
 		color: white;
 		display: block;
 		transition: 0.3s;
+		margin-bottom: 48px;
 		font-family: "Arial Black", Gadget, sans-serif;
 }
 
@@ -156,6 +157,7 @@ p {
 
 .contactinfo a {
 		font-size: .7em;
+		padding: 12.5px 0 12.5px 0;
 }
 
 .bottomlink {
@@ -171,7 +173,7 @@ p {
 		display: block;
 		clear: both;
 		background-color: #303030;
-		margin-top: 10vw;
+		margin-top: 5em;
 		margin-right: 0;
 }
 
@@ -180,7 +182,7 @@ p {
 		display: block;
 		clear: both;
 		background-color: #303030;
-		margin-top: 0vw;
+		margin-top: 0;
 		
 }
 
@@ -189,24 +191,16 @@ p {
 		display: block;
 		clear: both;
 		background-color: #303030;
-		margin-top: 32vw;
+		margin-top: 5em;
 		
-}
-
-#footernav {
-		border-radius: 0;
-		background-color: inherit;
-		font-size: 2vw;
-		margin-bottom: -3vw;
-		text-align: center;
-		color: var(--maintextcolor);
-		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 #footernavbutton {
 		background-color: inherit;
-		font-size: 1.5vw;
+		font-size: 1.2em;
 		margin-bottom: 0;
+		padding-top: 1.5em;
+		height: 3em;
 		text-align: center;
 		border: 0;
 		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -215,6 +209,7 @@ p {
 #footernavbutton a {
 		text-decoration: underline;
 		color: var(--maintextcolor);
+		padding: .5em 0 .5em 0;
 }
 
 p a {
@@ -489,23 +484,13 @@ h5 {
 			display: block;
 			clear: both;
 			background-color: #303030;
-			margin-top: 32vw;
+			margin-top: 10em;
 			
-	}
-
-	#footernav {
-			border-radius: 0;
-			background-color: inherit;
-			font-size: 2vw;
-			margin-bottom: -3vw;
-			text-align: center;
-			color: var(--maintextcolor);
-			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	}
 
 	#footernavbutton {
 			background-color: inherit;
-			font-size: 1.5vw;
+			font-size: 2vw;
 			margin-bottom: 0;
 			text-align: center;
 			border: 0;
