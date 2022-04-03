@@ -133,7 +133,7 @@ p {
 }
 
 .pshadow {
-		box-shadow: 0 0 2vw 1vw #7d7d7d;
+		/**box-shadow: 0 0 2vw 1vw #7d7d7d;**/
 }
 
 .line {
@@ -152,7 +152,7 @@ p {
 
 .contactinfo {
 		margin-top: -5vw;
-		box-shadow: 0 0 2vw 1vw #7d7d7d;
+		/**box-shadow: 0 0 2vw 1vw #7d7d7d;**/
 }
 
 .contactinfo a {
@@ -292,7 +292,7 @@ textarea {
 }
 
 input, textarea {
-		border-radius: .8vw;
+		/**border-radius: .8vw;**/
 }
 
 form {
@@ -307,7 +307,7 @@ form {
 		margin-left: auto;
 		margin-right: auto;
 		color: white;
-		box-shadow: 0 0 2vw 1vw #7d7d7d;
+		/**box-shadow: 0 0 2vw 1vw #7d7d7d;**/
 		
 }
 
@@ -426,7 +426,7 @@ h5 {
 	}
 
 	.pshadow {
-			box-shadow: 0 0 2vw 1vw #7d7d7d;
+			/**box-shadow: 0 0 2vw 1vw #7d7d7d;**/
 	}
 
 	.line {
@@ -446,7 +446,7 @@ h5 {
 	.contactinfo {
 			margin-top: -5vw;
 			font-size: 1.6em;
-			box-shadow: 0 0 2vw 1vw #7d7d7d;
+			/**box-shadow: 0 0 2vw 1vw #7d7d7d;**/
 	}
 	
 	.contactinfo a {
@@ -608,7 +608,7 @@ h5 {
 	}
 
 	input, textarea {
-			border-radius: .8vw;
+			/**border-radius: .8vw;**/
 	}
 
 	form {
@@ -623,7 +623,7 @@ h5 {
 			margin-left: auto;
 			margin-right: auto;
 			color: white;
-			box-shadow: 0 0 2vw 1vw #7d7d7d;
+			/**box-shadow: 0 0 2vw 1vw #7d7d7d;**/
 			
 	}
 
